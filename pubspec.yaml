@@ -35,6 +35,7 @@ dependencies:
   flutter:
     sdk: flutter
   google_sign_in: ^6.2.2
+  jitsi_meet_wrapper: ^0.2.0+1
 
 dev_dependencies:
   flutter_lints: ^4.0.0
