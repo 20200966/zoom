@@ -1,7 +1,9 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <application
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.zoom">
+    <application tools:replace="android:label"
         android:label="zoom"
-        android:name="${applicationName}"
+        android:name="com.example.zoom"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
