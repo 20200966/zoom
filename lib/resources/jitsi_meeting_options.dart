@@ -1,5 +1,6 @@
 import 'package:collection/collection.dart';
 
+
 class JitsiMeetingOptions {
   final String roomNameOrUrl;
   final String? serverUrl;
