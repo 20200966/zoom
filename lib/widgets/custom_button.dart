@@ -23,7 +23,7 @@ class CustomButton extends StatelessWidget {
           ),
         ),
         style: ElevatedButton.styleFrom(
-          primary: buttonColor,
+          backgroundColor: buttonColor, 
           minimumSize: const Size(
             double.infinity,
             50,
