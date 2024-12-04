@@ -46,6 +46,10 @@
 -keepclassmembers class *  { @com.facebook.react.uimanager.annotations.ReactProp <methods>; }
 -keepclassmembers class *  { @com.facebook.react.uimanager.annotations.ReactPropGroup <methods>; }
 
+-keep class org.jitsi.** { *; }
+-keep class com.facebook.react.** { *; }
+-keepattributes *Annotation*
+
 -dontwarn com.facebook.react.**
 -keep,includedescriptorclasses class com.facebook.react.bridge.** { *; }
 -keep,includedescriptorclasses class com.facebook.react.turbomodule.core.** { *; }
